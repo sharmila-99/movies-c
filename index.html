@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Zoners - Your Ticket to Comedy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffd700; /* gold */
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .movie-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px auto;
+        }
+        .movie {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+        .movie img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        form {
+            margin: 50px auto;
+            max-width: 400px;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        form h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        form label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        form input[type="text"],
+        form input[type="email"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="movie-container">
+        <div class="movie">
+            <img src="comedy1.jpg" alt="Comedy Movie 1">
+            <h2>Comedy Movie 1</h2>
+            <p>A hilarious comedy that will keep you laughing from start to finish.</p>
+            <button>Get Tickets</button>
+        </div>
+        <div class="movie">
+            <img src="comedy2.jpg" alt="Comedy Movie 2">
+            <h2>Comedy Movie 2</h2>
+            <p>Join the fun with this side-splitting comedy adventure.</p>
+            <button>Buy Tickets</button>
+        </div>
+        <div class="movie">
+            <img src="comedy3.jpg" alt="Comedy Movie 3">
+            <h2>Comedy Movie 3</h2>
+            <p>Experience the laughter with this feel-good comedy classic.</p>
+            <button>Book Tickets</button>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Movie Zoners - Your Ticket to Laughter. All rights reserved.
+    </footer>
+
+    <form>
+        <h2>Subscribe to Our Newsletter</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</body>
+</html>
